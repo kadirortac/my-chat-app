@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Viewport genişliği kadar genişlik */
+  height: 100vh; /* Viewport yüksekliği kadar yükseklik */
+  background-color:white;
+}
+
+.logoImage {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.descriptionText {
+  font-size: 20px;
+  color: #8d8b8a;
+  text-align: center;
+  max-width: 850px;
+  margin-bottom: 30px;
+}
+
+.sendButton {
+  background-color: #05b099; /* Yeşil arka plan rengi */
+  color: white; /* Beyaz yazı rengi */
+  padding: 12px 70px; /* Buton boyutu ayarı */
+  font-size: 16px; /* Yazı boyutu ayarı */
+  border: none; /* Kenarlık yok */
+  border-radius: 7px; /* Kenar yuvarlaklığı */
+  cursor: pointer;
+}
+.subText{
+  font-size: 12px;
+  margin-bottom: 70px;
+  margin-top: 15px;
+}
+
+.subText a{
+color: #05b099;
+
+}
+
+.subText p{
+  color:#8d8b8a
+}
+
+.Privacy{
+  margin-top: 250px;
+  color:#8d8b8a;
+  font-size: 12px;
+
+}
+.sendButton{
+  text-decoration: none;
+}

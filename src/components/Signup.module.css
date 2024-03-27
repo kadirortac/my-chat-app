@@ -1,0 +1,181 @@
+.container {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .form {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8d8b8a;
+    border-radius: 7px;
+    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil et */
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #00b49c;
+    margin-top: 10px; /* Butonlar arasında boşluk bırak */
+    font-size: 17px;
+  }
+  
+  .form button:hover {
+    background-color: #089781;
+  }
+  
+  .form p {
+    margin-top: 15px;
+  }
+  
+  .socialButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .socialButtons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black; /* Yazı rengini siyah yap */
+    font-weight: 420;
+    font-size: 18px;
+  }
+  
+  
+  .socialButtons button img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .form .googleButton {
+    background-color: #fff; /* Google butonu arka plan rengi */
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8d8b8a;
+    border-radius: 7px;
+    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil et */
+  }
+  
+  .form .appleButton {
+    background-color: #fff; /* Apple butonu arka plan rengi */
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8d8b8a;
+    border-radius: 7px;
+    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil et */
+  }
+  .socialButtons button:hover {
+    background-color: unset; /* Butonun üzerine gelince arka plan rengini kaldır */
+  }
+  
+  .inputLabel {
+    margin-bottom: 0px; /* İhtiyaca göre boşluk ayarı */
+    text-align: left; /* Metnin sola hizalanması */
+    font-size: 15px;
+  
+  }
+  .passwordLabel {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  .passwordLabel a {
+    color: #00b49c;
+    text-decoration: none;
+    margin-left: 170px; /* Forgot linki ile password metni arasında bir boşluk bırakmak için */
+  }
+  
+  
+  .forgotLink {
+    display: flex; /* Yatay hizada tutmak için */
+    align-items: center; /* Dikey hizalama */
+    justify-content: flex-end; /* Sağa hizalama */
+    color: #007bff; /* Link rengi */
+    text-decoration: none; /* Link altı çizgisinin kaldırılması */
+    margin-bottom: 0; /* Boşluk olmaması için */
+  }
+  
+  
+  
+  .passwordLabelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0; /* Boşluk olmaması için */
+  }
+  
+  
+  .SubText{
+    color:#8d8b8a;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .SignUplink{
+    color: #00b49c;
+    font-size: 13px;
+    font-weight: bold;
+  
+  
+  }
+  
+  .orContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px; /* İhtiyaca göre ayarlayın */
+  }
+  
+  .orLine {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .orText {
+    margin: 0 10px;
+  }
+  
+  .googleButton:hover {
+    background-image: linear-gradient(to right, #4285F4, #DB4437, #F4B400, #0F9D58);
+    /* Google'ın ana renklerini içeren bir gradient */
+    color: white; /* Yazı rengini beyaz yap */
+  }
+  
+  .appleButton:hover {
+    background-image: linear-gradient(to right, #ffffff ,#AAAAAA, #666666, #000000);
+    /* Apple'ın ana renklerini içeren bir gradient */
+    color: white; /* Yazı rengini beyaz yap */
+  }
+  
+  .Privacy{
+    margin-top: 250px;
+    color:#8d8b8a;
+    font-size: 12px;
+  
+  }

@@ -1,0 +1,89 @@
+body {
+    margin: 0; /* Sayfa kenar boşluklarını kaldır */
+    overflow: hidden; /* Scrollbar'ları gizle */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Viewport genişliği kadar genişlik */
+    height: 100vh; /* Viewport yüksekliği kadar yükseklik */
+    background-color:white;
+  }
+  
+  .welcomeText {
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .logoContainer {
+    margin-bottom: 5px; /* Logoyu aşağı kaydırır */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .logoImage {
+    width: 120px;
+    height: auto;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  
+  .descriptionText {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    max-width: 1000px;
+    margin-bottom: 35px;
+   
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 45%; /* Welcome text ile aynı genişlik */
+    height: 15px;
+    padding: 10px;
+    
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .input {
+    flex: 1; /* Otomatik genişlik ayarı */
+    height: 40px;
+    padding: 10px;
+    border-width: 0;
+    font-size:24px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+   
+  }
+  
+  .sendButton {
+    width: 70px;
+    height: 60px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sendIcon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    filter: invert(1);
+}
+
+
+

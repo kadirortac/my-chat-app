@@ -1,0 +1,73 @@
+/* styles.module.css */
+
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .chatPanel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leftPanel {
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px; /* Boşluk eklemek için */
+    border-radius: 10px; /* Border radius ekleme */
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .userPhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .chatScreen {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f7;
+    overflow-y: auto;
+    border-radius: 10px; /* Border radius ekleme */
+    margin-bottom: 100px; /* Boşluk eklemek için */
+    margin-top: 40px; /* Boşluk eklemek için */
+    margin-right: 40px;
+    height: calc(100% - 140px); /* Sayfanın yüksekliğinden alt boşluk ve üst boşluğu çıkar */
+}
+  .questionInput {
+    padding: 20px;
+    display: flex; /* Yatayda ortalamak için */
+    justify-content:end; /* Yatayda ortalamak için */
+    margin-top: 550px;
+    margin-right: 300px;
+  }
+
+  .questionInput input {
+    margin-right: 10px; /* Giriş kutusunu butona yaklaştırmak için */
+  }
+  
+  .newChatButton {
+    margin-top: auto;
+  }
+  
+  .logoutButton {
+    margin-top: 10px;
+  }
+  
+
+  .userInfo{
+    margin-top: 550px; /* Bu satırı silin */
+  }
+
