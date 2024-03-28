@@ -1,73 +1,126 @@
 /* styles.module.css */
 
 .pageContainer {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-  }
-  
-  .chatPanel {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .leftPanel {
-    width: 200px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 20px; /* Boşluk eklemek için */
-    border-radius: 10px; /* Border radius ekleme */
-  }
-  
-  .logo {
-    width: 100px;
-    margin-bottom: 10px;
-  }
-  
-  .userPhoto {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  }
-  
-  .chatScreen {
-    flex: 1;
-    padding: 20px;
-    background-color: #f4f4f7;
-    overflow-y: auto;
-    border-radius: 10px; /* Border radius ekleme */
-    margin-bottom: 100px; /* Boşluk eklemek için */
-    margin-top: 40px; /* Boşluk eklemek için */
-    margin-right: 40px;
-    height: calc(100% - 140px); /* Sayfanın yüksekliğinden alt boşluk ve üst boşluğu çıkar */
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
 }
-  .questionInput {
-    padding: 20px;
-    display: flex; /* Yatayda ortalamak için */
-    justify-content:end; /* Yatayda ortalamak için */
-    margin-top: 550px;
-    margin-right: 300px;
-  }
 
-  .questionInput input {
-    margin-right: 10px; /* Giriş kutusunu butona yaklaştırmak için */
-  }
-  
-  .newChatButton {
-    margin-top: auto;
-  }
-  
-  .logoutButton {
-    margin-top: 10px;
-  }
-  
+.chatPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 
-  .userInfo{
-    margin-top: 550px; /* Bu satırı silin */
-  }
+.leftPanel {
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px; /* Boşluk eklemek için */
+  border-radius: 10px; /* Border radius ekleme */
+}
 
+.leftPanelTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftPanelBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.chatScreen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #f4f4f7;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-right: 40px;
+  height: calc(100% - 140px); /* Değiştirildi */
+}
+
+.questionInput {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.questionInput input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.submitQuestionButton {
+  padding: 2px;
+  background-color: #00000000;
+  color: #00b49c;
+  border: 1px solid #00b49c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.newChatButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #00b49c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.logoutButton {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #00000000;
+  border: none;
+  color: #707070;
+}
+
+.userInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.label {
+  font-weight: bold;
+}
